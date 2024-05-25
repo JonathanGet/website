@@ -68,26 +68,37 @@
 #letteriM {
 	animation-delay: 0.35s;
 }
-#letterTravis {
+#letterJonathan {
 	animation-delay: 0.45s;
 }
-#lettertRavis {
+#letterjOnathan {
 	animation-delay: 0.5s;
 }
-#lettertrAvis {
+#letterjoNathan {
+	animation-delay: 0.525s;
+}
+#letterjonAthan {
 	animation-delay: 0.55s;
 }
-#lettertraVis {
+#letterjonaThan {
 	animation-delay: 0.6s;
+	border: solid red 2px
 }
-#lettertravIs {
+#letterjonatHan {
 	animation-delay: 0.65s;
+	border: solid red 2px
 }
-#lettertraviS {
+#letterjonathAn {
 	animation-delay: 0.7s;
+	border: solid red 2px
+}
+#letterjonathaN {
+	animation-delay: 0.725s;
+	border: solid red 2px
 }
 #lettertravisComma {
 	animation-delay: 0.75s;
+		border: solid red 2px
 }
 #letterFullstack {
 	animation-delay: 0.85s;

@@ -9,12 +9,14 @@ import NodeImg from '../Media/Images/skills/node.png';
 import SQLImg from '../Media/Images/skills/sql.png';
 import DjangoImg from '../Media/Images/skills/Django.png';
 import GoImg from '../Media/Images/skills/go.png';
+import Cisco from '../Media/Images/skills/CCNA-Logo-.jpg';
 import PythonImg from '../Media/Images/skills/python.png';
 import JavaImg from '../Media/Images/skills/java.png';
 import CWUImg from '../Media/Images/cwu_logo.png';
 import MetaImg from '../Media/Images/meta_logo.png';
 import GoogleImg from '../Media/Images/google_logo.png';
 import IBMImg from '../Media/Images/IBM_logo.png';
+import Azure from '../Media/Images/Azure-900.png';
 import cwuDiploma from '../Media/Images/cwuDiploma.png';
 import TypeWriterEffect from 'react-typewriter-effect';
 import { useInView } from 'react-intersection-observer';
@@ -124,11 +126,11 @@ function Skills() {
 					</div>
 				</div>
 				<div className='skills-box'>
-					<h1 className='skills-title'>Programming</h1>
+					<h1 className='skills-title'>Networking</h1>
 					<div className='skills-content'>
-						<div id='GoSkill' className='skills-item'>
-							<img src={GoImg} alt='Go' />
-							<h2>Golang</h2>
+						<div id='Cisco' className='skills-item'>
+							<img src={Cisco} alt='Cisco' />
+							<h2>Cisco</h2>
 							<p>Proficient Go Developer.</p>
 						</div>
 						<div id='PythonSkill' className='skillSeparator'></div>
@@ -263,8 +265,8 @@ function Skills() {
 								onMouseLeave={() => setMouse3(true)}>
 								<img
 									className='cert-img'
-									src={IBMImg}
-									alt='IMB Full Stack Developer Certification'
+									src={Azure}
+									alt='Azure 900'
 								/>
 								<GiClick id={mouse3 ? 'cert-pointer' : 'cert-pointer-gone'} />
 								<div className='cert-img-hover-box'>
@@ -276,7 +278,7 @@ function Skills() {
 						<div className='cert-text-box'>
 							<h1 className='cert-title'>IBM Full Stack Developer</h1>
 							<p>
-								The IBM Professional Certification for Full Stack Developers.
+								The Microsoft Professional Certification for Azure Fundamentals.
 							</p>
 						</div>
 					</div>

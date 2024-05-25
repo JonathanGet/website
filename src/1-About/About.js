@@ -35,108 +35,75 @@ function About() {
 							m
 						</span>
 						&nbsp;
-						<span id='letterTravis' Class='easeInOut'>
-							T
+						<span id='letterJonathan' Class='easeInOut'>
+							J
 						</span>
-						<span id='lettertRavis' Class='easeInOut'>
-							r
+						<span id='letterjOnathan' Class='easeInOut'>
+							o
 						</span>
-						<span id='lettertrAvis' Class='easeInOut'>
+						<span id='letterjoNathan' Class='easeInOut'>
+							n
+						</span>
+						<span id='letterjonAthan' Class='easeInOut'>
 							a
 						</span>
-						<span id='lettertraVis' Class='easeInOut'>
-							v
+						<span id='letterjonaThan' Class='easeInOut'>
+							t
 						</span>
-						<span id='lettertravIs' Class='easeInOut'>
-							i
+						<span id='letterjonatHan' Class='easeInOut'>
+							h
 						</span>
-						<span id='lettertraviS' Class='easeInOut'>
-							s
+						<span id='letterjonathAn' Class='easeInOut'>
+							a
+						</span>
+						<span id='letterjonathaN' Class='easeInOut'>
+							n
 						</span>
 						<span id='lettertravisComma' Class='easeInOut'>
 							,
 						</span>
 						<br />
-						<span id='letterFullstack' Class='easeInOut'>
-							F
+						<span id='letterNoc' Class='easeInOut'>
+							N
 						</span>
-						<span id='letterfUllstack' Class='easeInOut'>
-							u
+						<span id='letternOc' Class='easeInOut'>
+							O
 						</span>
-						<span id='letterfuLlstack' Class='easeInOut'>
-							l
-						</span>
-						<span id='letterfulLstack' Class='easeInOut'>
-							l
-						</span>
-						<span id='letterfullStack' Class='easeInOut'>
-							s
-						</span>
-						<span id='letterfullsTack' Class='easeInOut'>
-							t
-						</span>
-						<span id='letterfullstAck' Class='easeInOut'>
-							a
-						</span>
-						<span id='letterfullstaCk' Class='easeInOut'>
-							c
-						</span>
-						<span id='letterfullstacK' Class='easeInOut'>
-							k
+						<span id='letternoC' Class='easeInOut'>
+							C
 						</span>
 						&nbsp;
+						<span id='letterfulLstack' Class='easeInOut'>
+							T
+						</span>
+						<span id='letterfullStack' Class='easeInOut'>
+							e
+						</span>
+						<span id='letterfullsTack' Class='easeInOut'>
+							c
+						</span>
+						<span id='letterfullstAck' Class='easeInOut'>
+							h
+						</span>
+						<span id='letterfullstaCk' Class='easeInOut'>
+							n
+						</span>
+						<span id='letterfullstacK' Class='easeInOut'>
+							i
+						</span>
 						<span id='letterSoftware' Class='easeInOut'>
-							S
+							c
 						</span>
 						<span id='lettersOftware' Class='easeInOut'>
-							o
+							i
 						</span>
 						<span id='lettersoFtware' Class='easeInOut'>
-							f
-						</span>
-						<span id='lettersofTware' Class='easeInOut'>
-							t
-						</span>
-						<span id='lettersoftWare' Class='easeInOut'>
-							w
-						</span>
-						<span id='lettersoftwAre' Class='easeInOut'>
 							a
 						</span>
-						<span id='lettersoftwaRe' Class='easeInOut'>
-							r
-						</span>
-						<span id='lettersoftwarE' Class='easeInOut'>
-							e
+						<span id='lettersofTware' Class='easeInOut'>
+							n
 						</span>
 						<br />
-						<span id='letterDeveloper' Class='easeInOut'>
-							D
-						</span>
-						<span id='letterdEveloper' Class='easeInOut'>
-							e
-						</span>
-						<span id='letterdeVeloper' Class='easeInOut'>
-							v
-						</span>
-						<span id='letterdevEloper' Class='easeInOut'>
-							e
-						</span>
-						<span id='letterdeveLoper' Class='easeInOut'>
-							l
-						</span>
-						<span id='letterdevelOper' Class='easeInOut'>
-							o
-						</span>
-						<span id='letterdeveloPer' Class='easeInOut'>
-							p
-						</span>
-						<span id='letterdevelopEr' Class='easeInOut'>
-							e
-						</span>
-						<span id='letterdevelopeR' Class='easeInOut'>
-							r
-						</span>
 					</h1>
 					<p className='about-left-description'>
 						Strong Technical Communication Skills
@@ -154,7 +121,7 @@ function About() {
 									<img src={PDF_Icon} alt='PDF' className='about-resume-pdf' />
 								</a>
 								<a
-									href='https://docs.google.com/document/d/1cYpPYM66l6z3Jp8V999oICjoJAMXVm3qzjc2r2kIJ_Y/edit?usp=sharing'
+									href='https://1drv.ms/w/c/d19ec194c3fe1971/EXEZ_sOUwZ4ggNFKFQAAAAABlehbB7DRaYfIbOEAnwyU9Q?e=KAfKMJ'
 									target='_blank'
 									rel='noreferrer'>
 									<img
@@ -168,24 +135,20 @@ function About() {
 					</div>
 				</div>
 				<div className='about-right-box'>
-					<div className='about-right-title'>About</div>
+					<div className='about-right-title'>About Me:</div>
 					<p className='about-right-description'>
-						I'm a software developer with strong computer programming
-						fundamentals and strong full stack development skills. I'm great at
-						problem solving and technical communication. I have a solid
-						background in IT fundamentals that allows me a unique perspective on
-						building out software applications.
+						I'm a NOC Technician. 
 						<br />
 						<br />
 						It's important for me to keep learning new technologies and to keep
 						learning more on my existing knowledge base. I enjoy challenging
 						myself with{' '}
 						<span onClick={() => navigate('/projects')}>projects</span>
-						&nbsp; that require me to become a better programmer.
+						&nbsp; that require me to become a better Network & Cloud Technician.
 						<br />
-						<br />I enjoy getting out to any coding meetups in Seattle area, and
-						regularly chatting with my friends on Linkedin. Let's connect and
-						start a conversation!
+						<br />Thing I enjoy are Soccer, Spanish Music, Old School Rock, Hiking, 
+						Watching moveis, and Lifting weights. I'm bilingual native Spanish and
+						 Professional English. Also a US Citizen with a valid driver licenses.
 					</p>
 				</div>
 			</div>
