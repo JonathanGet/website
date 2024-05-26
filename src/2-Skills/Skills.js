@@ -9,7 +9,8 @@ import NodeImg from '../Media/Images/skills/node.png';
 import SQLImg from '../Media/Images/skills/sql.png';
 import DjangoImg from '../Media/Images/skills/Django.png';
 import GoImg from '../Media/Images/skills/go.png';
-import Cisco from '../Media/Images/skills/CCNA-Logo-.jpg';
+import Cisco from '../Media/Images/skills/Cisco.jpg';
+import Cisco2 from '../Media/Images/skills/CCNA-Logo-.jpg'
 import PythonImg from '../Media/Images/skills/python.png';
 import JavaImg from '../Media/Images/skills/java.png';
 import CWUImg from '../Media/Images/cwu_logo.png';
@@ -131,7 +132,7 @@ function Skills() {
 						<div id='Cisco' className='skills-item'>
 							<img src={Cisco} alt='Cisco' />
 							<h2>Cisco</h2>
-							<p>Proficient Go Developer.</p>
+							<p>Proficient in Cisco Terminal.</p>
 						</div>
 						<div id='PythonSkill' className='skillSeparator'></div>
 						<div id='PythonSkill' className='skills-item'>
@@ -256,7 +257,7 @@ function Skills() {
 						onMouseEnter={() => setMouse3(true)}
 						onMouseLeave={() => setMouse3(false)}>
 						<a
-							href='https://coursera.org/share/34ab8ef980310c57f4d4d43d36812291'
+							href='https://learn.microsoft.com/api/credentials/share/en-us/JonathanRamos-2077/63370EC20EDB199E?sharingId=4A9ADC1BB4D6896C'
 							target='_blank'
 							rel='noreferrer'>
 							<div
@@ -276,7 +277,7 @@ function Skills() {
 							</div>
 						</a>
 						<div className='cert-text-box'>
-							<h1 className='cert-title'>IBM Full Stack Developer</h1>
+							<h1 className='cert-title'>Azure Fundamentals</h1>
 							<p>
 								The Microsoft Professional Certification for Azure Fundamentals.
 							</p>
@@ -289,14 +290,14 @@ function Skills() {
 						onMouseEnter={() => setMouse2(true)}
 						onMouseLeave={() => setMouse2(false)}>
 						<a
-							href='https://coursera.org/share/5112f23d56e2e1a4e9c3032d16a6ad8e'
+							href='https://cp.certmetrics.com/cisco/en/public/verify/credential/f44e23e38d704c7987f5986a03afaa72'
 							target='_blank'
 							rel='noreferrer'>
 							<div
 								className='cert-img-wrapper'
 								onMouseEnter={() => setMouse2(false)}
 								onMouseLeave={() => setMouse2(true)}>
-								<img className='cert-img' src={MetaImg} alt='AWS' />
+								<img className='cert-img' src={Cisco2} alt='AWS' />
 								<GiClick id={mouse2 ? 'cert-pointer' : 'cert-pointer-gone'} />
 								<div className='cert-img-hover-box'>
 									<h1>View certificate</h1>
@@ -305,10 +306,9 @@ function Skills() {
 							</div>
 						</a>
 						<div className='cert-text-box'>
-							<h1 className='cert-title'>Meta Front End Developer</h1>
+							<h1 className='cert-title'>Cisco CCNA 200-301 Certified</h1>
 							<p>
-								Meta's Professional Certificate for Front End Software
-								Development.
+							The Cisco Certified Network Associe.
 							</p>
 						</div>
 					</div>
@@ -319,7 +319,7 @@ function Skills() {
 						onMouseEnter={() => setMouse3(true)}
 						onMouseLeave={() => setMouse3(false)}>
 						<a
-							href='https://coursera.org/share/bfee3098f1003fbd25b21aefa21720d5'
+							href='https://coursera.org/share/915698565a35c0b029c5e759531b0a76'
 							target='_blank'
 							rel='noreferrer'>
 							<div

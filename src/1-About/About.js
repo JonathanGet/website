@@ -2,6 +2,7 @@ import './about.css';
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import PDF_Icon from '../Media/Images/pdf.png';
+import Word_Icon from '../Media/Images/Word-Document.jpg';
 import GoogleDocs_Icon from '../Media/Images/googleDocs.png';
 
 function About() {
@@ -59,7 +60,7 @@ function About() {
 						<span id='letterjonathaN' Class='easeInOut'>
 							n
 						</span>
-						<span id='lettertravisComma' Class='easeInOut'>
+						<span id='letterramosComma' Class='easeInOut'>
 							,
 						</span>
 						<br />
@@ -73,34 +74,34 @@ function About() {
 							C
 						</span>
 						&nbsp;
-						<span id='letterfulLstack' Class='easeInOut'>
+						<span id='letterTechnician' Class='easeInOut'>
 							T
 						</span>
-						<span id='letterfullStack' Class='easeInOut'>
+						<span id='lettertEchnician' Class='easeInOut'>
 							e
 						</span>
-						<span id='letterfullsTack' Class='easeInOut'>
+						<span id='letterteChnician' Class='easeInOut'>
 							c
 						</span>
-						<span id='letterfullstAck' Class='easeInOut'>
+						<span id='lettertecHnician' Class='easeInOut'>
 							h
 						</span>
-						<span id='letterfullstaCk' Class='easeInOut'>
+						<span id='lettertechNician' Class='easeInOut'>
 							n
 						</span>
-						<span id='letterfullstacK' Class='easeInOut'>
+						<span id='lettertechnIcian' Class='easeInOut'>
 							i
 						</span>
-						<span id='letterSoftware' Class='easeInOut'>
+						<span id='lettertechniCian' Class='easeInOut'>
 							c
 						</span>
-						<span id='lettersOftware' Class='easeInOut'>
+						<span id='lettertechnicIan' Class='easeInOut'>
 							i
 						</span>
-						<span id='lettersoFtware' Class='easeInOut'>
+						<span id='lettertechniciAn' Class='easeInOut'>
 							a
 						</span>
-						<span id='lettersofTware' Class='easeInOut'>
+						<span id='lettertechniciaN' Class='easeInOut'>
 							n
 						</span>
 						<br />
@@ -125,9 +126,9 @@ function About() {
 									target='_blank'
 									rel='noreferrer'>
 									<img
-										src={GoogleDocs_Icon}
-										alt='Google Docs'
-										className='about-resume-googleDocs'
+										src={Word_Icon}
+										alt='Word Docs'
+										className='about-resume-Word-Docs'
 									/>
 								</a>
 							</div>

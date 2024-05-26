@@ -37,7 +37,7 @@ function Contact() {
 		let clearPopup = setTimeout(() => setCopied(false), 1500);
 		copied && clearTimeout(clearPopup);
 		setCopied(true);
-		navigator.clipboard.writeText('travis@lamberte.com');
+		navigator.clipboard.writeText('me@joanthan-ramos.pro');
 	}
 
 	return (
@@ -105,12 +105,12 @@ function Contact() {
 								onClick={() => handleCopy()}
 								id='contact-copy-icon'
 							/>
-							{/* <p id='contact-copy-email'>travis@lamberte.com</p> */}
+							{/* <p id='contact-copy-email'>me@joanthan-ramos.pro</p> */}
 							<a
 								id='contact-copy-email'
-								href='mailto:travis@lamberte.com'
+								href='mailto:me@joanthan-ramos.pro'
 								target='_blank'>
-								travis@lamberte.com
+								me@joanthan-ramos.pro
 							</a>
 						</div>
 						<div
@@ -124,10 +124,10 @@ function Contact() {
 			<div className='contact-right-box'>
 				<div className='contact-right-cover'></div>
 				<div className='map-popup'>
-					<p>Travis Lamberte</p>
-					<p>travis@lamberte.com</p>
-					<p>1-425-443-4812</p>
-					<p>Seattle, WA - USA</p>
+					<p>Jonathan Ramos</p>
+					<p>me@joanthan-ramos.pro</p>
+					<p>1-516-667-8323</p>
+					<p>Westbury, NY - USA</p>
 				</div>
 				<div className='map-wrapper'>
 					<iframe
