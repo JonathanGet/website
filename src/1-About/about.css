@@ -249,16 +249,16 @@
 .about-resume-pdf:active {
 	transform: scale(0.95);
 }
-.about-resume-googleDocs {
+.about-resume-Word-Docs {
 	height: 5rem;
 	width: 5rem;
 	transition: all ease 0.15s;
 }
-.about-resume-googleDocs:hover {
+.about-resume-Word-Docs:hover {
 	cursor: pointer;
 	transform: scale(1.085);
 }
-.about-resume-googleDocs:active {
+.aabout-resume-Word-Docs:active {
 	transform: scale(0.95);
 }
 

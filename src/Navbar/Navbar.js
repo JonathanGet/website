@@ -2,7 +2,7 @@ import './navbar.css';
 import { NavLink } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import Logo from '../Media/Images/logo.png';
+import Logo from '../Media/Images/logo.jpg';
 import { Fragment } from 'react/cjs/react.production.min';
 import { useEffect, useState } from 'react';
 
@@ -49,7 +49,7 @@ function Navbar() {
 						alt='DV'
 						onClick={() => handleLogoClick()}
 					/>
-					<h1>Travis Lamberte</h1>
+					<h1>Jonathan Ramos</h1>
 				</div>
 				<div>
 					<ul className='nav-menu'>
@@ -94,14 +94,14 @@ function Navbar() {
 
 				<div className='navbar-bottom'>
 					<a
-						href='https://www.linkedin.com/in/seattletravis/'
+						href='https://www.linkedin.com/in/jonathan-ramos-756616254/'
 						title='LinkedIn'
 						target='_blank'
 						rel='noopener noreferrer'>
 						<FaLinkedin className='nav-icon' />
 					</a>
 					<a
-						href='https://github.com/seattletravis'
+						href='https://github.com/JonathanGet'
 						title='GitHub'
 						target='_blank'
 						rel='noopener noreferrer'>
